@@ -1,12 +1,7 @@
-#include <iostream>
-using namespace std;
-
-int main() {
-	cout<< 9-2<<endl;
-	cout <<30/5;
-	
-	
-	// Print the result of 30 / 5
-    
-
+// Write complete code to print the sum of 12 and 7
+#include<iostream>
+using namespace std ;
+int main (){
+    cout << 12+7;
+    return 0;
 }
