@@ -55,10 +55,10 @@ Write a program which does the following
 **Language:** c_cpp  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-08-17T17:30:58.459Z  
+**Submitted:** 2026-08-17T17:29:37.242Z  
 
 ```c_cpp
-#include <iostream>;
+#include <iostream>
 using namespace std;
 
 int main() {
