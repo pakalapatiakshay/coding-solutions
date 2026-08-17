@@ -1,8 +1,9 @@
-#include <iostream>;
+#include <iostream>
 using namespace std;
 
 int main() {
- 
-  cout <<  21 + 40 ; 
+
+  // Replace the _ (underscores) with the correct value
+  cout << "I love C++";
 
 }
