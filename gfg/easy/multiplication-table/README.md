@@ -24,7 +24,7 @@ Output: 2 4 6 8 10 12 14 16 18 20
 **Language:** C++  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-08-18T11:02:38.249Z  
+**Submitted:** 2026-08-18T11:02:53.160Z  
 
 ```cpp
 #include <bits/stdc++.h>
