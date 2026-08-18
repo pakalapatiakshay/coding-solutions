@@ -55,7 +55,7 @@ Write a program which does the following
 **Language:** c_cpp  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-08-17T17:29:37.242Z  
+**Submitted:** 2026-08-17T17:30:30.591Z  
 
 ```c_cpp
 #include <iostream>
