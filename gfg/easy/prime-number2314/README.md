@@ -36,7 +36,7 @@ Explanation: 1 has only one divisor (1 itself), which is not sufficient for it t
 **Language:** c(gcc5.4)  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-08-20T16:00:43.283Z  
+**Submitted:** 2026-08-20T16:01:54.495Z  
 
 ```c(gcc5.4)
 bool isPrime(int n) {
