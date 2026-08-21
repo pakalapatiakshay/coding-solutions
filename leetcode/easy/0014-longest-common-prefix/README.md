@@ -38,32 +38,26 @@ Explanation: There is no common prefix among the input strings.
 ## Solution
 
 **Language:** C++  
-**Runtime:** 1 ms (beats 11.60%)  
-**Memory:** 11.8 MB (beats 58.00%)  
-**Submitted:** 2026-08-21T13:26:11.336Z  
+**Runtime:** 3 ms (beats 8.50%)  
+**Memory:** 12 MB (beats 38.85%)  
+**Submitted:** 2026-08-21T13:27:57.487Z  
 
 ```cpp
 class Solution {
 public:
     string longestCommonPrefix(vector<string>& strs) {
         string prefix = strs[0];
-
         for (int i = 1; i < strs.size(); i++) {
             int j = 0;
-
-            while (j < prefix.size() &&
+                while (j < prefix.size() &&
                    j < strs[i].size() &&
                    prefix[j] == strs[i][j]) {
-                j++;
-            }
-
-            prefix = prefix.substr(0, j);
-
-            if (prefix.empty()) {
+                j++;}
+             prefix = prefix.substr(0, j);
+                if (prefix.empty()) {
                 return "";
             }
         }
-
         return prefix;
     }
 };
